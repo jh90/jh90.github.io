@@ -8,7 +8,7 @@ h1 {
 }
 
 #me {
-  background-color: lightgreen;
+  background-color: rgba(0,140,0,.5);
   width: 35%;
   margin: 10px;
   border-radius: 8px;
@@ -16,5 +16,16 @@ h1 {
 }
 
 nav {
-  display: block;
+  background-color: red;
+  margin: 10px;
+  padding: 2px;
+  float: right;
+}
+
+.navlinks {
+  color: white;
+}
+
+#pages {
+  display: inline-block;
 }
