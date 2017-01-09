@@ -21451,15 +21451,15 @@
 	
 	var _main2 = _interopRequireDefault(_main);
 	
-	var _about = __webpack_require__(240);
+	var _about = __webpack_require__(239);
 	
 	var _about2 = _interopRequireDefault(_about);
 	
-	var _portfolio = __webpack_require__(242);
+	var _portfolio = __webpack_require__(241);
 	
 	var _portfolio2 = _interopRequireDefault(_portfolio);
 	
-	var _blog = __webpack_require__(243);
+	var _blog = __webpack_require__(242);
 	
 	var _blog2 = _interopRequireDefault(_blog);
 	
@@ -27231,11 +27231,6 @@
 	            'a',
 	            { href: 'https://www.linkedin.com/in/jake-hamilton-02724a27' },
 	            _react2.default.createElement('img', { className: 'icon', src: __webpack_require__(238) })
-	          ),
-	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://www.spotify.com/apokryphon' },
-	            _react2.default.createElement('img', { className: 'icon spotify', src: __webpack_require__(239) })
 	          )
 	        ),
 	        this.props.children
@@ -27264,12 +27259,6 @@
 /* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "ac93f1003b9e05f4b17f6c9aa1ec2376.png";
-
-/***/ },
-/* 240 */
-/***/ function(module, exports, __webpack_require__) {
-
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
@@ -27286,7 +27275,7 @@
 	  return _react2.default.createElement(
 	    'div',
 	    { className: 'about' },
-	    _react2.default.createElement('img', { src: __webpack_require__(241) }),
+	    _react2.default.createElement('img', { src: __webpack_require__(240) }),
 	    _react2.default.createElement(
 	      'p',
 	      null,
@@ -27311,13 +27300,13 @@
 	exports.default = Header;
 
 /***/ },
-/* 241 */
+/* 240 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "2231b61f559d8c03cc044cb156489a47.jpg";
 
 /***/ },
-/* 242 */
+/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27398,7 +27387,7 @@
 	exports.default = Portfolio;
 
 /***/ },
-/* 243 */
+/* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
