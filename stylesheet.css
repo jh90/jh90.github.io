@@ -1,0 +1,137 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto+Slab|Taviraj|Ubuntu';
+
+body {
+  background-image: url('http://deepskystudios.com/wp-content/uploads/2015/06/Deep-Sky-3D-Space-Visualization-Laniakea-2.jpg');
+  background-size: cover;
+  font-family: Ubuntu;
+}
+
+.links {
+  text-decoration: none;
+  font-style: none;
+  color: white;
+}
+
+.links:hover {
+  color: red;
+}
+
+nav {
+  clear: all;
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(41, 128, 185, .6);
+  padding: 10px 0 10px 0;
+  text-align: left;
+  z-index: 2;
+}
+
+.nav {
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+
+.nav.name {
+  font-family: 'Taviraj', serif;
+  padding-right: 3em;
+  border-right: 1px solid white;
+  font-size: 30px;
+  margin: 0 0 0 50px;
+}
+
+.nav.links {
+  margin: 0 50px 0 50px;
+  font-size: 18px;
+}
+
+.nav.links:hover {
+  color: rgb(255, 180, 180);
+}
+
+.about {
+  border-radius: 12px;
+  color: white;
+  background: rgba(100, 100, 100, .6);
+  margin: 20px;
+  padding: 0 15px;
+  position: relative;
+  max-width: 500px;
+  top: 2.5rem;
+  position: fixed;
+  left: 3em;
+  top: 11em;
+  text-align: left;
+  overflow: hidden;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.about img {
+  float: right;
+  width: 35%;
+  margin: 1em 1.5em 1em .5em;
+  border-radius: 7%;
+  position: relative;
+  left: 0;
+
+}
+
+.about p {
+  text-align: left;
+  margin: 1em 2em 1em 1em;
+}
+
+#social-media {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  text-align: right;
+  max-width: 100%;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  display: inline;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.icon.spotify {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  bottom: -.28em;
+}
+
+.credit {
+  font-style: italic;
+}
+
+.portfolio {
+  position: relative;
+  max-width: 700px;
+  max-height: 500px;
+  left: 3em;
+  top: 4.5em;
+  overflow: scroll;
+  text-decoration: none;
+}
+
+.project {
+  border-radius: 12px;
+  color: white;
+  background: rgba(100, 100, 100, .6);
+  margin: 40px;
+  padding: 8px;
+  text-align: left;
+  text-decoration: none;
+  overflow: hidden;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.project h3 {
+  margin: 0 auto;
+  text-decoration: none;
+}
