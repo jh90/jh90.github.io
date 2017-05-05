@@ -27342,8 +27342,26 @@
 	      'li',
 	      { className: 'project' },
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/', className: 'links' },
+	        'a',
+	        { href: 'http://jh90.github.io/feed_forward', className: 'links' },
+	        _react2.default.createElement(
+	          'h3',
+	          null,
+	          'FeedForward'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        'User-driven content aggregator and voting system that supports a full range of CRUD and authentication behaviors using React.js and firebase.io.'
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'li',
+	      { className: 'project' },
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'http://github.com/jh90/street-VYNL', className: 'links' },
 	        _react2.default.createElement(
 	          'h3',
 	          null,
@@ -27360,8 +27378,8 @@
 	      'li',
 	      { className: 'project' },
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/', className: 'links' },
+	        'a',
+	        { href: 'http://jh90.github.io/jericho', className: 'links' },
 	        _react2.default.createElement(
 	          'h3',
 	          null,
@@ -27378,18 +27396,13 @@
 	      'li',
 	      { className: 'project' },
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/', className: 'links' },
+	        'a',
+	        { href: 'http://github.com/jh90/coinwatch', className: 'links' },
 	        _react2.default.createElement(
 	          'h3',
 	          null,
-	          'FeedForward'
+	          'Coinbase'
 	        )
-	      ),
-	      _react2.default.createElement(
-	        'p',
-	        null,
-	        'User-driven content aggregator and voting system that supports a full range of CRUD and authentication behaviors using React.js and firebase.io.'
 	      )
 	    )
 	  );
